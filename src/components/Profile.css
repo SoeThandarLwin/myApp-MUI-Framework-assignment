@@ -1,0 +1,32 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    margin: 0;
+    /* width: 200px; */
+    height: 200px;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20px;
+    color: #727373;
+    text-align: center !important;
+}
+
+/* h1 {
+    text-align: center;
+} */
+
+hr{
+    width: 300px;
+    background-color:#a08bff;
+    height: 5px;
+    border-radius: 20px;
+    border: none 0;
+}
