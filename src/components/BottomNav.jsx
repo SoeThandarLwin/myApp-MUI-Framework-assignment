@@ -5,7 +5,7 @@ import { Restore as RestoreIcon } from "@mui/icons-material";
 
 export default function BottomNav() {
   const [value, setValue] = React.useState("");
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
